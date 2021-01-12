@@ -1176,7 +1176,7 @@
   #define FIL_RUNOUT_STATE LOW        // Pin state indicating that filament is NOT present.
   #define FIL_RUNOUT_PULLUP               // Use internal pullup for filament runout pins.
   //#define FIL_RUNOUT_PULLDOWN           // Use internal pulldown for filament runout pins.
-  //#define FIL_RUNOUT_PIN    4 
+  #define FIL_RUNOUT_PIN    2         //mark429
     // Set one or more commands to execute on filament runout.
   // (After 'M412 H' Marlin will ask the host to handle the process.)
   #define FILAMENT_RUNOUT_SCRIPT "M600"
